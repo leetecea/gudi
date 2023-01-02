@@ -1,0 +1,59 @@
+@use '../../styles/variables'
+
+section
+  display: flex
+  align-items: center
+  justify-content: space-between
+  height: 2.8em
+
+  a
+    display: flex
+    align-items: center
+    gap: .7em
+    margin-left: 2em 
+    
+    
+img
+  width: 4em
+  height: 1.4em
+
+h2
+  font-size: 0.68em
+  width: 7em
+  color: variables.$text-color-blue-primary
+  
+nav
+  width: 45em
+  
+ul
+  display: flex
+  align-items: center
+  justify-content: space-evenly
+  width: 100%
+
+li
+  color: variables.$text-color-blue-primary
+  font-size: .75em
+
+.agendar
+  font-size: .6em
+  padding: .8em 2em .8em 2em
+  text-transform: uppercase
+  letter-spacing: .3em
+  font-weight: variables.$font-weight-bold
+  border-radius: variables.$border-radius-primary
+  color: variables.$text-color-white-primary
+  background-color: variables.$text-color-blue-primary
+  transition: .8s all
+  &:hover
+    transform: scale(1.1,1.01)
+
+.imagemKombi
+  width: 100%
+  background-color: gray
+  height: 23em
+  background-image: url('../../assets/kombi.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
