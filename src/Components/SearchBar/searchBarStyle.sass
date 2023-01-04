@@ -1,0 +1,46 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+@use '../../styles/fonts'
+
+.contain-search
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: flex-start
+  gap: .6em
+  height: 100%
+  padding-left: 4%
+  h2
+    @include mixins.title-header-h2
+    width: 10em
+  input
+    width: 26em
+    border-radius: 20px
+    border: none
+    padding: 1em 2em 1em 2em
+    font-size: .65em
+    font-family: 'Argentum Sans Light'
+  button
+    margin-top: 0
+    background-color: variables.$background-blue
+    border: none
+    font-family: 'Argentum Sans Regular'
+    transition: .8s all
+    &:hover
+      font-family: 'Argentum Sans Bold'
+    
+
+.searchList
+  display: flex
+  flex-direction: column
+  width: 16em
+  gap: .2em
+  background-color: transparent
+  li
+    text-align: center
+    width: 100%
+    border-radius: .5em
+    background: variables.$background-white
+    
+
+

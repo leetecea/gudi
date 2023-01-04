@@ -1,0 +1,25 @@
+@use '../styles/variables'
+@use '../styles/fonts'
+
+@mixin title-header-h2
+  font-size: 2.18em
+  font-family: 'Argentum Sans Bold'
+  color: variables.$text-color-blue-primary
+  
+@mixin title-main-h2 ($color, $width)
+  font-size: 2.18em
+  font-family: 'Argentum Sans Black'
+  color: $color
+  width: $width
+
+@mixin subtitle-btn-main ($color)
+  font-size: 0.6em
+  font-family: 'Argentum Sans ExtraLight'
+  text-transform: uppercase
+  color: $color
+  letter-spacing: 3.8px
+  
+@mixin paragraph-main ($color)
+  font-size: 0.87em
+  font-family: 'Argentum Sans Light'
+  color: $color

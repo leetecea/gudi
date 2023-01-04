@@ -5,6 +5,8 @@ import Beneficios from '../../pages/Beneficios'
 import Contato from '../../pages/Contato'
 import Agendar from '../../pages/Agendar'
 import '../Header/headerStyle.sass'
+import SearchBar from '../SearchBar'
+
 
 export default function Header() {
   return (
@@ -12,7 +14,7 @@ export default function Header() {
       <section>
         <Link to='/'>
           <img src={Gudi} alt="Gudi" />
-          <h2>O bom da vida é viver</h2>
+          <p>O bom da vida é viver</p>
         </Link>
         <nav>
           <ul className="navbar">
@@ -24,7 +26,7 @@ export default function Header() {
         </nav>
       </section>
       <section className='imagemKombi'>
-
+        <SearchBar />  
       </section>
     </>
   )
