@@ -1,15 +1,17 @@
-<h1 align="center"> Gudi  </h1>
-<p align="center">✈️ Site de viagens nacionais. Construído com o intuito de aprender e treinar a utilização de novas tecnologias.</p>
-
-##
+<div align="center">
+<h1> Gudi </h1>
+<p>✈️ Site de viagens nacionais. Construído com o intuito de aprender e treinar a utilização de novas tecnologias.</p>
 
 ![Página inicial do site Gudi](https://i.imgur.com/k1gg8G4.png)
-
+</div>
 ### 💻 Tecnologias utilizadas
 
 * [React](https://reactjs.org/) 
 * [TypeScript](https://reactjs.org/)
 * [Sass](https://sass-lang.com/)
+
+### Funcionalidades
+Pesquisador de estados do Brasil
 
 ### 🛠️ Configuração do projeto
 Projeto criado com Vite.
