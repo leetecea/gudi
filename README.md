@@ -18,6 +18,6 @@ E para uma melhor experiência de desenvolvimento foi instalado a extensão ``Sa
 
 ### 🔨 Instalar e abrir projeto
 
-- Para instalar as dependências execute ``npm install`` no terminal
-- Para rodar o projeto utilize ``npm run dev`` 
-- Acesse o projeto na url: (http://localhost:5173/) 
+Para instalar as dependências execute ``npm install`` no terminal.
+Para rodar o projeto utilize ``npm run dev``. 
+Acesse o projeto na url: (http://localhost:5173/). 
