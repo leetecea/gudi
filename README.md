@@ -4,13 +4,14 @@
 
 ![Página inicial do site Gudi](https://i.imgur.com/k1gg8G4.png)
 </div>
+
 ### 💻 Tecnologias utilizadas
 
 * [React](https://reactjs.org/) 
 * [TypeScript](https://reactjs.org/)
 * [Sass](https://sass-lang.com/)
 
-### Funcionalidades
+### 💡 Funcionalidades
 Pesquisador de estados do Brasil
 
 ### 🛠️ Configuração do projeto
